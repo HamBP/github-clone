@@ -23,7 +23,7 @@ function Aside() {
       </div>
       <a href="">Explore more →</a>
     </aside>
-  )
+  );
 }
 
 export default Aside;

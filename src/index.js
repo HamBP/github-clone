@@ -9,6 +9,7 @@ import Board from './components/index/Board';
 import Main from './components/index/Main';
 import reportWebVitals from './reportWebVitals';
 import Aside from "./components/index/Aside";
+import Footer from "./components/index/Footer";
 
 function Index() {
   return (
@@ -18,6 +19,7 @@ function Index() {
         <Board/>
         <Main/>
         <Aside/>
+        <Footer/>
       </div>
     </div>
   );
