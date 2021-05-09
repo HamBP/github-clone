@@ -18,7 +18,7 @@ function Main() {
         </div>
         <div>
           <div><a href="">bbaktaeho</a> created a repository <a href="">my-project-storage/web-linkedin</a> 9 hours ago</div>
-          <div>
+          <div className="card feed">
             <a href="">my-project-storage/web-linkedin</a>
             <p>난이도: ★★★★</p>
             <span>Updated May 10</span>
@@ -32,7 +32,7 @@ function Main() {
         </div>
         <div>
           <div><a href="">bbaktaeho</a> created a repository <a href="">my-project-storage/web-linkedin</a> 9 hours ago</div>
-          <div>
+          <div className="card feed">
             <a href="">my-project-storage/web-linkedin</a>
             <p>난이도: ★★★★</p>
             <span>Updated May 10</span>
@@ -46,7 +46,7 @@ function Main() {
         </div>
         <div>
           <div><a href="">bbaktaeho</a> created a repository <a href="">my-project-storage/web-linkedin</a> 9 hours ago</div>
-          <div>
+          <div className="card feed">
             <a href="">my-project-storage/web-linkedin</a>
             <p>난이도: ★★★★</p>
             <span>Updated May 10</span>
@@ -60,7 +60,7 @@ function Main() {
         </div>
         <div>
           <div><a href="">bbaktaeho</a> created a repository <a href="">my-project-storage/web-linkedin</a> 9 hours ago</div>
-          <div>
+          <div className="card feed">
             <a href="">my-project-storage/web-linkedin</a>
             <p>난이도: ★★★★</p>
             <span>Updated May 10</span>
@@ -73,8 +73,8 @@ function Main() {
           <img src="" alt=""/>
         </div>
         <div>
-          <div><a href="">bbaktaeho</a> created a repository <a href="">my-project-storage/web-linkedin</a> 9 hours ago</div>
-          <div>
+          <div ><a href="">bbaktaeho</a> created a repository <a href="">my-project-storage/web-linkedin</a> 9 hours ago</div>
+          <div className="card feed">
             <a href="">my-project-storage/web-linkedin</a>
             <p>난이도: ★★★★</p>
             <span>Updated May 10</span>

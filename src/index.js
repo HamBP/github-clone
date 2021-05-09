@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import './styles/Logo.css';
+import './styles/Header.css';
 import './styles/Board.css';
 import './styles/Main.css';
-import Logo from './components/common/logo/Logo';
+import './styles/Footer.css';
+import Header from './components/common/header/Header';
 import Board from './components/index/Board';
 import Main from './components/index/Main';
 import reportWebVitals from './reportWebVitals';
@@ -14,7 +15,7 @@ import Footer from "./components/index/Footer";
 function Index() {
   return (
     <div>
-      <Logo/>
+      <Header/>
       <div className='content'>
         <Board/>
         <Main/>

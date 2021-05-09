@@ -1,4 +1,4 @@
-function Logo() {
+function Header() {
   return (
     <header>
       <div className='header'>
@@ -18,4 +18,4 @@ function Logo() {
   );
 }
 
-export default Logo;
+export default Header;

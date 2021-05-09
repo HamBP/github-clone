@@ -1,3 +1,13 @@
 .board {
+  background-color: white;
   padding: 0px 32px;
+  border: 1px solid #eaecef;
+}
+
+#btn-show-more {
+  display: block;
+}
+
+#find-repository {
+  display: block;
 }

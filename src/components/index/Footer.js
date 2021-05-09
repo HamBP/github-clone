@@ -5,7 +5,7 @@ function Footer() {
         <img src="" alt=""/>
         <span>2021 GitHub, Inc.</span>
       </div>
-      <div>
+      <div class="footer-container">
         <ul>
           <li><a href="">Blog</a></li>
           <li><a href="">About</a></li>

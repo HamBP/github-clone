@@ -1,22 +1,23 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f8fa;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 .content {
   display: grid;
-	grid-template-rows: auto 128px;
-	grid-template-columns: 1fr 3fr 1fr;
-	grid-template-areas: 
+  grid-template-rows: auto 128px;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas:
 		"board main aside"
 		"board footer aside";
 }
@@ -25,14 +26,15 @@ code {
   grid-area: board;
 }
 
-aside { 
-	grid-area: aside; 
+aside {
+  grid-area: aside;
 }
 
-main { 
-	grid-area: main; 
+main {
+  padding: 0 32px;
+  grid-area: main;
 }
 
-footer { 
-	grid-area: footer; 
+footer {
+  grid-area: footer;
 }

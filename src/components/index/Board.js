@@ -13,15 +13,13 @@ function Board() {
         <a href=''>New</a>
       </div>
 
-      <input placeholder='Find a repository...' />
+      <input id="find-repository" placeholder='Find a repository...' />
 
-      <ul>
-        <li>inu-appcenter/INU-emotion-android</li>
-        <li>HamBP/chat-unavailable</li>
-        <li>INU-Fake-Develo... /IamJunYoung</li>
-      </ul>
+      <a href=''>inu-appcenter/INU-emotion-android</a>
+      <a href=''>HamBP/chat-unavailable</a>
+      <a href=''>INU-Fake-Develo... /IamJunYoung</a>
 
-      <button type='submit'>show more</button>
+      <button id="btn-show-more" type='submit'>show more</button>
       <hr />
 
       <h2>Your teams</h2>
