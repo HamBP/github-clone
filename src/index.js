@@ -8,21 +8,23 @@ import Logo from './components/common/logo/Logo';
 import Board from './components/index/Board';
 import Main from './components/index/Main';
 import reportWebVitals from './reportWebVitals';
+import Aside from "./components/index/Aside";
 
 function Index() {
   return (
-      <div>
-        <Logo />
-        <div className='content'>
-          <Board />
-          <Main />
-        </div>
+    <div>
+      <Logo/>
+      <div className='content'>
+        <Board/>
+        <Main/>
+        <Aside/>
       </div>
-    );
+    </div>
+  );
 }
 
 ReactDOM.render(
-  <Index />,
+  <Index/>,
   document.getElementById('root')
 );
 
