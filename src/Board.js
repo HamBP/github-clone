@@ -1,19 +1,19 @@
-function Aside() {
+function Board() {
   return (
-    <aside>
+    <div className='board'>
       <div className='dashboard-context'>
-        <img src=''/>
+        <img src='' />
         <span>HamBP</span>
-        <img src=''/>
+        <img src='' />
       </div>
-      <hr/>
+      <hr />
 
       <div>
         <h2>Repositories</h2>
         <a href=''>New</a>
       </div>
 
-      <input placeholder='Find a repository...'/>
+      <input placeholder='Find a repository...' />
 
       <ul>
         <li>inu-appcenter/INU-emotion-android</li>
@@ -22,17 +22,16 @@ function Aside() {
       </ul>
 
       <button type='submit'>show more</button>
-      <hr/>
-      
+      <hr />
+
       <h2>Your teams</h2>
-      <input placeholder='Find a team...'/>
+      <input placeholder='Find a team...' />
       <ul>
         <li>INU-Fake-Developers/season-2</li>
         <li>inu-appcenter/android</li>
       </ul>
-
-    </aside>
+    </div>
   );
 }
 
-export default Aside;
+export default Board;
