@@ -5,6 +5,7 @@ import './styles/Header.css';
 import './styles/Board.css';
 import './styles/Main.css';
 import './styles/Footer.css';
+import './styles/Aside.css'
 import Header from './components/common/header/Header';
 import Board from './components/index/Board';
 import Main from './components/index/Main';

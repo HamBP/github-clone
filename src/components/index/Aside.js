@@ -1,8 +1,8 @@
 function Aside() {
   return (
     <aside>
-      <div className="dark-mode">
-        <h2><a href="">Dark mode is here!</a></h2>
+      <div className="dark-mode card">
+        <h3>Dark mode is here!</h3>
         <p>
           Go to Settings → Appearance to choose your theme preference.
         </p>

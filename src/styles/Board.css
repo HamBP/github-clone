@@ -1,13 +1,31 @@
 .board {
+  width: auto;
+  max-width: 350px;
   background-color: white;
   padding: 0px 32px;
   border: 1px solid #eaecef;
 }
 
-#btn-show-more {
+.board input {
+  width: 100%;
+  border: solid 1px #eeeeee;
+  border-radius: 8px;
+  background-color: #fafbfc;
+  padding: 5px 12px;
+  margin: 0 0 16px;
   display: block;
 }
 
-#find-repository {
+.board h2 {
+  font-size: 14px;
+}
+
+.board a {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+#btn-show-more {
   display: block;
 }

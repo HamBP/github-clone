@@ -1,0 +1,10 @@
+aside {
+  max-width: 350px;
+  margin-top: 32px;
+  padding-right: 32px;
+}
+
+.dark-mode {
+  padding: 16px;
+  margin-bottom: 24px;
+}

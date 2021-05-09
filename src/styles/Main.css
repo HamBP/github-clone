@@ -1,3 +1,8 @@
+main {
+  margin-top: 16px;
+  padding: 0 32px;
+}
+
 .feed {
   padding: 16px;
 }
@@ -5,4 +10,13 @@
 main a {
   font-weight: bold;
   color: #24292e;
+}
+
+.recent-activity {
+  padding: 0px;
+}
+
+.recent-activity li {
+  display: block;
+  padding: 8px;
 }
