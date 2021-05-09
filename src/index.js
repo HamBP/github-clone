@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './Logo.css';
-import './Board.css';
-import './Main.css';
-import App from './App';
-import Logo from './Logo';
-import Board from './Board';
-import Main from './Main';
+import './styles/index.css';
+import './styles/Logo.css';
+import './styles/Board.css';
+import './styles/Main.css';
+import Logo from './components/common/logo/Logo';
+import Board from './components/index/Board';
+import Main from './components/index/Main';
 import reportWebVitals from './reportWebVitals';
 
 function Index() {
