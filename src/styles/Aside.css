@@ -5,6 +5,90 @@ aside {
 }
 
 .dark-mode {
+  display: block;
   padding: 16px;
   margin-bottom: 24px;
+  font-size: 13px;
+}
+
+.dark-mode .moon {
+  display: inline;
+  width: 28px;
+  height: 28px;
+  padding: 6px;
+  border-radius: 50%;
+  color: #ffdf5d;
+  background-color: #2f363d;
+  margin-right: 16px;
+}
+
+.dark-mode h3 {
+  display: inline;
+  font-size: 18px;
+}
+
+.dark-mode p {
+  margin: 16px 0;
+}
+
+.dark-mode a {
+  font-size: 13px;
+  display: inline;
+  color: #333333;
+  padding: 4px 12px;
+  border: #DDDDDD solid 1px;
+  border-radius: 8px;
+  background-color: #fafbfc;
+}
+
+aside h2 {
+  font-size: 16px;
+}
+
+aside .repositories {
+  font-size: 14px;
+}
+
+aside .repositories a {
+  color: #333333;
+}
+
+aside p {
+  color: #666666;
+}
+
+img.javascript {
+  width: 14px;
+  height: 14px;
+  background-color: #f1e05a;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+img.typescript {
+  width: 14px;
+  height: 14px;
+  background-color: #2b7489;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+aside .divider {
+  border-bottom: #EEEEEE solid 1px;
+}
+
+aside .repository {
+  padding: 8px 0;
+  margin: 8px 0;
+}
+
+a#explore-more {
+  font-weight: 400;
+  font-size: 13px;
+  color: #555555;
+}
+
+a#explore-more:hover {
+  text-decoration: none;
+  color: #0366D6;
 }
