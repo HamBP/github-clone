@@ -1,0 +1,28 @@
+#drop-down-menu {
+    padding: 4px 0;
+    top: 5%;
+    right: 20%;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+#drop-down-menu {
+    display: block;
+}
+
+#drop-down-menu a {
+    color: #24292e;
+    padding: 4px 8px 4px 16px;
+    display: block;
+}
+
+#drop-down-menu a:hover {
+    color: white;
+    background-color: #0366d6;
+    text-decoration: none;
+}
+
+.invisible {
+    display: none;
+}

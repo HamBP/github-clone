@@ -1,3 +1,5 @@
+import { MdArrowDropDown } from "react-icons/md"
+
 function Header() {
   return (
     <header>
@@ -12,10 +14,15 @@ function Header() {
 
         <img src='./bell.png'/>
         <img src=''/>
-        <img src=''/>
+        <img src="" alt="" className="profile"/>
+        <MdArrowDropDown onClick={dropDown} className="btn-drop-down"/>
       </div>
     </header>
   );
+}
+
+function dropDown() {
+  document.getElementById("drop-down-menu").classList.toggle("invisible");
 }
 
 export default Header;
