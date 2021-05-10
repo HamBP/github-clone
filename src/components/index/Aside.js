@@ -7,7 +7,7 @@ function Aside() {
         <BsMoon className={"moon"}/>
         <h3>Dark mode is here!</h3>
         <p>
-          Go to Settings → Appearance to choose your theme preference.
+          Go to <span>Settings → Appearance</span> to choose your theme preference.
         </p>
         <a href="">Go to Settings</a>
       </div>

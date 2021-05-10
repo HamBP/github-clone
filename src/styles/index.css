@@ -22,28 +22,11 @@ code {
 }
 
 .content {
-  display: grid;
-  grid-template-rows: auto 128px;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-areas:
-		"board main aside"
-		"board footer aside";
-}
-
-.board {
-  grid-area: board;
-}
-
-aside {
-  grid-area: aside;
+  display: flex;
 }
 
 main {
-  grid-area: main;
-}
-
-footer {
-  grid-area: footer;
+  width: 65%;
 }
 
 .card {

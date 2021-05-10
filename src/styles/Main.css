@@ -3,12 +3,90 @@ main {
   padding: 0 32px;
 }
 
+main p {
+  margin-bottom: 0;
+}
+
+main a:hover {
+  text-decoration: none;
+}
+
+.feed-container {
+  display: flex;
+  margin: 16px 0;
+}
+
 .feed {
+  width: 100%;
+}
+
+.btn-star {
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 16px;
+  padding: 4px 12px;
+  border-radius: 8px;
+  border: #CCCCCC solid 1px;
+  background-color: #fafbfc;
+}
+
+.btn-star .star {
+  font-size: 16px;
+  transform: translateY(-2px);
+}
+
+.btn-star .star:hover {
+  color: #333333;
+}
+
+.feed-content {
+  width: 100%;
   padding: 16px;
+  margin-top: 8px;
+}
+
+.feed-profile {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.feed-title {
+  padding: 4px 0;
+  width: 100%;
+  display: block;
+}
+
+.feed-title a {
+  display: inline;
+}
+
+.language, .datetime {
+  font-size: 14px;
+  color: #666666;
+}
+
+.feed-footer {
+  margin-top: 10px;
+}
+
+.language-color {
+  width: 12px;
+  height: 12px;
+  background-color: #B07219;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.star:hover {
+  color: #0366D6;
 }
 
 main a {
-  font-weight: bold;
+  font-weight: 500;
   color: #24292e;
 }
 

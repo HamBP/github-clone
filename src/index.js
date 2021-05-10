@@ -24,8 +24,8 @@ function Index() {
         <Board/>
         <Main/>
         <Aside/>
-        <Footer/>
       </div>
+      <Footer/>
     </div>
   );
 }
