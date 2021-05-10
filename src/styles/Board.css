@@ -6,6 +6,44 @@
   border: 1px solid #eaecef;
 }
 
+.dashboard-context {
+  margin: 16px 0 24px;
+  padding: 16px 0;
+  border-bottom: #EEEEEE solid 1px;
+}
+
+.mini-profile {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.nickname {
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.dropdown {
+  width: 20px;
+  height: 20px;
+}
+
+.repository-title {
+  display: flex;
+}
+
+.board h2 {
+  width: 100%;
+  font-size: 16px;
+}
+
+.repository-title a {
+  padding: 3px 12px;
+  background-color: #2ea44f;
+  color: white;
+  border-radius: 8px;
+}
+
 .board input {
   width: 100%;
   border: solid 1px #eeeeee;
@@ -16,11 +54,19 @@
   display: block;
 }
 
-.board h2 {
-  font-size: 14px;
+.flex {
+  display: flex;
 }
 
-.board a {
+.book {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  margin-right: 8px;
+}
+
+a {
+  color: #0366d6;
   display: block;
   margin-bottom: 8px;
   font-weight: 500;
@@ -28,4 +74,8 @@
 
 #btn-show-more {
   display: block;
+  border: none;
+  background-color: white;
+  color: #666666;
+  font-size: 14px;
 }
