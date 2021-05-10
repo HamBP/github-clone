@@ -1,86 +1,118 @@
+import {BsStar} from "react-icons/bs"
+
 function Main() {
   return (
     <main>
-      <h2>Recent activity</h2>
-      <ul className="recent-activity">
-        <li className="card">
-          <a href='https://github.com/kimyekang/AppcenterStudy/pull/1'></a>
-          <div>
-            <a href='https://github.com/kimyekang/AppcenterStudy/pull/1'>Update activity_main.xml</a>
-            <img src="" alt=""/>
-          </div>
-          <a href='https://github.com/kimyekang/AppcenterStudy'>kimyekang/AppcenterStudy</a>
-          <span>You Opened this pull request <a href='https://github.com/kimyekang/AppcenterStudy/pull/1#issue-623069537'>13 days ago</a></span>
-        </li>
-      </ul>
-
-      <h2>All activity</h2>
-      <div>
+      <div className={"feed-container"}>
         <div>
-          <img src="" alt=""/>
+          <img src="https://avatars.githubusercontent.com/u/47032054?s=64&v=4" alt="" className="feed-profile"/>
         </div>
-        <div>
-          <div><a href="">bbaktaeho</a> created a repository <a href="">my-project-storage/web-linkedin</a> 9 hours ago</div>
-          <div className="card feed">
-            <a href="">my-project-storage/web-linkedin</a>
-            <p>난이도: ★★★★</p>
-            <span>Updated May 10</span>
+
+        <div className={"feed"}>
+          <div className="feed-title">
+            <a href="">GHeeJeon </a>forked<a href=""> GHeeJeon/qoomon  </a><span className={"datetime"}>9 hours ago</span>
+          </div>
+          <div className="card feed-content">
+            <div className="btn-star">
+              <BsStar className={"star"}/> Star
+            </div>
+
+            <a href="">qoomon/qoomon</a>
+            <p>About</p>
+            <p className={"feed-footer"}>
+              <BsStar class={"star"}/> 1 <span className={"datetime"}>Updated May 11</span>
+            </p>
           </div>
         </div>
       </div>
 
-      <div>
+      <div className={"feed-container"}>
         <div>
-          <img src="" alt=""/>
+          <img src="https://avatars.githubusercontent.com/u/48875325?s=64&v=4" alt="" className="feed-profile"/>
         </div>
-        <div>
-          <div><a href="">potados</a> started following <a href="">velopert</a> 3 days ago</div>
-          <div className="card feed">
-            <a href=""><strong>Minjun Kim</strong></a> <a>velopert</a>
-            <p>개발은 언제나 즐겁고 재밌어야 한다는 생각을 갖고 있는 개발자이며, 가르치는것을 굉장히 좋아하는 교육자이기도 합니다.</p>
-            <a href="">76 repositories</a> <a href="">2.1k followers</a>
+
+        <div className={"feed"}>
+          <div className="feed-title">
+            <a href="">bbaktaeho</a> starred <a href="">dntlakfn/java-study</a> <span className={"datetime"}>2 days ago</span>
+          </div>
+          <div className="card feed-content">
+            <div className="btn-star">
+              <BsStar className={"star"}/> Star
+            </div>
+
+            <a href="">dntlakfn/java-study</a>
+            <p>자바 과외</p>
+            <p>
+              <img src="" alt="" className={"language-color"}/><span className={"language"}>Java</span> <BsStar class={"star"}/> 1 <span className={"datetime"}>Updated May 11</span>
+            </p>
           </div>
         </div>
       </div>
 
-      <div>
+      <div className={"feed-container"}>
         <div>
-          <img src="" alt=""/>
+          <img src="https://avatars.githubusercontent.com/u/81911257?s=64&v=4" alt="" className="feed-profile"/>
         </div>
-        <div>
-          <div><a href="">orihehe</a> starred <a href="">738/awesome-devbook</a> 3 days ago</div>
-          <div className="card feed">
-            <a href="">738/awesome-devbook</a>
-            <p><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d5.png" alt=""/>국내 개발 도서 리스트</p>
-            <a href="">☆ 398</a> <span>Updated May 10</span>
+
+        <div className={"feed"}>
+          <div className="feed-title">
+            <a href="">kimyekang</a> created a repository <a href="">kimyekang/AppCenterStudy2 </a><span className={"datetime"}>2 days ago</span>
+          </div>
+          <div className="card feed-content">
+            <div className="btn-star">
+              <BsStar className={"star"}/> Star
+            </div>
+
+            <a href="">kimyekang/AppCenterStudy2</a>
+            <p>
+              <span className={"datetime"}>Updated May 9</span>
+            </p>
           </div>
         </div>
       </div>
 
-      <div>
+      <div className={"feed-container"}>
         <div>
-          <img src="" alt=""/>
+          <img src="https://avatars.githubusercontent.com/u/47032054?s=64&v=4" alt="" className="feed-profile"/>
         </div>
-        <div>
-          <div><a href="">bbaktaeho</a> created a repository <a href="">my-project-storage/web-linkedin</a> 9 hours ago</div>
-          <div className="card feed">
-            <a href="">my-project-storage/web-linkedin</a>
-            <p>난이도: ★★★★</p>
-            <span>Updated May 10</span>
+
+        <div className={"feed"}>
+          <div className="feed-title">
+            <a href="">GHeeJeon </a>forked<a href=""> GHeeJeon/qoomon  </a><span className={"datetime"}>9 hours ago</span>
+          </div>
+          <div className="card feed-content">
+            <div className="btn-star">
+              <BsStar className={"star"}/> Star
+            </div>
+
+            <a href="">qoomon/qoomon</a>
+            <p>About</p>
+            <p>
+              <BsStar class={"star"}/> 1 <span className={"datetime"}>Updated May 11</span>
+            </p>
           </div>
         </div>
       </div>
 
-      <div>
+      <div className={"feed-container"}>
         <div>
-          <img src="" alt=""/>
+          <img src="https://avatars.githubusercontent.com/u/47032054?s=64&v=4" alt="" className="feed-profile"/>
         </div>
-        <div>
-          <div ><a href="">bbaktaeho</a> created a repository <a href="">my-project-storage/web-linkedin</a> 9 hours ago</div>
-          <div className="card feed">
-            <a href="">my-project-storage/web-linkedin</a>
-            <p>난이도: ★★★★</p>
-            <span>Updated May 10</span>
+
+        <div className={"feed"}>
+          <div className="feed-title">
+            <a href="">GHeeJeon </a>forked<a href=""> GHeeJeon/qoomon  </a><span className={"datetime"}>9 hours ago</span>
+          </div>
+          <div className="card feed-content">
+            <div className="btn-star">
+              <BsStar className={"star"}/> Star
+            </div>
+
+            <a href="">qoomon/qoomon</a>
+            <p>About</p>
+            <p>
+              <BsStar class={"star"}/> 1 <span className={"datetime"}>Updated May 11</span>
+            </p>
           </div>
         </div>
       </div>

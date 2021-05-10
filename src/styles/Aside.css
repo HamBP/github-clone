@@ -31,6 +31,10 @@ aside {
   margin: 16px 0;
 }
 
+.dark-mode span {
+  font-weight: 500;
+}
+
 .dark-mode a {
   font-size: 13px;
   display: inline;
